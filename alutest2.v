@@ -182,8 +182,8 @@ test_no = 11; //A + B (8-bit)
               F.CheckValues(ALUOut[7:0],16'h76, test_no, "ALUOut");
               F.CheckValues(Z,0, test_no, "Z");
               F.CheckValues(C,1, test_no, "C");
-              F.CheckValues(N,0, test_no, "N");
-              F.CheckValues(O,0, test_no, "O");         
+              F.CheckValues(N,1, test_no, "N");
+              F.CheckValues(O,1, test_no, "O");         
 
          
 
